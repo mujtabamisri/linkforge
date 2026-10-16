@@ -7,7 +7,7 @@ type Stats = { shortCode: string; originalUrl: string; totalClicks: number; clic
 type Status = 'all' | 'active' | 'expired' | 'never';
 type Sort = 'newest' | 'oldest' | 'most' | 'least';
 
-const API = '/api';
+const API = `${import.meta.env.VITE_API_URL || ""}/api`;
 function prettyDate(date: string) { return new Date(date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' }); }
 function prettyTime(date: string) { return new Date(date).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }); }
 function domain(url: string) { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } }
