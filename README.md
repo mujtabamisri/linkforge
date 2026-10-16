@@ -4,15 +4,22 @@
 
 LinkForge is a full-stack URL shortener with a responsive dashboard for creating, managing, and tracking shortened links. It supports custom aliases, expiration dates, and click analytics, with no external API keys required for local use.
 
+
 ## Preview
 
-_Add a screenshot of the application here after taking one:_
+### Search and Filter
+![LinkForge search and filter](image.png)
 
-```markdown
-![search bar image](image.png)
-![add long link and then add a custom alias and click shorten link](image-2.png)
-![link dashboard with analytics](image-1.png)
-```
+### Shorten a URL
+Enter a long URL, optionally choose a custom alias, and create a short link.
+
+![LinkForge URL shortener](image-2.png)
+
+### Dashboard and Analytics
+Manage shortened links, monitor clicks, and view analytics.
+
+![LinkForge dashboard and analytics](image-1.png)
+
 
 ## Features
 
