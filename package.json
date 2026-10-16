@@ -1,0 +1,11 @@
+{
+  "name": "linkforge",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server run start",
+    "check": "npm --prefix client run check && npm --prefix server run check"
+  }
+}
